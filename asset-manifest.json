@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/smart-business-test-task/static/css/main.3dab91d3.css",
+    "main.js": "/smart-business-test-task/static/js/main.c605b1f4.js",
+    "index.html": "/smart-business-test-task/index.html",
+    "main.3dab91d3.css.map": "/smart-business-test-task/static/css/main.3dab91d3.css.map",
+    "main.c605b1f4.js.map": "/smart-business-test-task/static/js/main.c605b1f4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3dab91d3.css",
+    "static/js/main.c605b1f4.js"
+  ]
+}
