@@ -1,4 +1,4 @@
-This project is a completed test task for the Smart Business company. Performed by Vladislav Ustimenko.
+This project is a completed test task for the Smart Business company. Performed by Vladyslav Ustymenko.
 
 ## Available Scripts
 
