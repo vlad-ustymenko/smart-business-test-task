@@ -1,0 +1,53 @@
+.table {
+  display: none;
+}
+
+.card {
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 5px 10px;
+}
+
+.title {
+  color: var(--gray-light);
+
+  font-weight: 500;
+}
+
+.emptyTable {
+  display: none;
+}
+
+@media (width <= 1279px) {
+  .table {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .emptyTable {
+    display: block;
+    text-align: center;
+
+    font-size: 24px;
+    font-weight: 500;
+  }
+}
+
+@media (width <= 1023px) {
+  .table {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width <= 767px) {
+  .table {
+    grid-template-columns: 1fr;
+  }
+}

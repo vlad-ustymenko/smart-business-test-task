@@ -1,0 +1,51 @@
+.table {
+  overflow: hidden;
+
+  width: 100%;
+
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+  background-color: white;
+}
+
+.emptyTable {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.rowBody:last-child > .cell {
+  border-bottom: none;
+}
+
+.wrapper {
+  display: block;
+  overflow-x: auto;
+
+  width: 100%;
+}
+
+.wrapper::-webkit-scrollbar {
+  height: 8px;
+}
+
+.thead {
+  text-align: left;
+
+  border-bottom: 1px solid var(--gray);
+  background-color: var(--accent);
+
+  font-weight: 600;
+}
+
+.cell {
+  min-width: 200px;
+  padding: 10px;
+
+  border-bottom: 1px solid var(--gray);
+}
+
+@media (width <= 1279px) {
+  .wrapper {
+    display: none;
+  }
+}
